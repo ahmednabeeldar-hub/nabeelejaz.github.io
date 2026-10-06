@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlantLens - AI Plant Identifier</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🌿 PlantLens</h1>
+    <p>Identify plants from photos using AI</p>
+</header>
+
+<main>
+    <section class="upload-box">
+        <h2>Upload a Plant Photo</h2>
+
+        <input type="file" id="imageInput" accept="image/*">
+
+        <div class="preview-container">
+            <img id="previewImage" src="" alt="">
+        </div>
+
+        <button id="identifyBtn">Identify Plant</button>
+    </section>
+
+    <section class="results">
+        <h2>Plant Information</h2>
+
+        <div id="plantResult">
+            Upload an image and click Identify.
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>PlantLens © 2026</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
