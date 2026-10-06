@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f5fff5;
+}
+
+header{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+main{
+    width:90%;
+    max-width:1000px;
+    margin:30px auto;
+}
+
+.upload-box,
+.results{
+    background:white;
+    border-radius:12px;
+    padding:20px;
+    margin-bottom:20px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+h2{
+    margin-bottom:15px;
+}
+
+input[type=file]{
+    margin-bottom:15px;
+}
+
+.preview-container{
+    text-align:center;
+    margin:20px 0;
+}
+
+.preview-container img{
+    max-width:100%;
+    max-height:400px;
+    display:none;
+    border-radius:10px;
+}
+
+button{
+    background:#43a047;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#2e7d32;
+}
+
+#plantResult{
+    line-height:1.8;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#e8f5e9;
+}
